@@ -1,0 +1,74 @@
+<!doctype html>
+<!-- 
+    1. h1 - h6   -- heading = tiêu đề
+    2. p   -- paragraph = đoạn văn
+    3. img  -- image = chèn hình ảnh
+    4. a  -- anchor = chèn cái link tới trang wed
+    5. ul, li  -- unordered list, list item = danh sách
+    6. table  -- có phần <thead>
+                            <th> 
+
+                            </th>
+                        </thead>
+                        <body>
+                            <tr> 
+
+                            </tr>
+                        </body>
+    7. input  -- có nghĩa là tìm kiếm, phong đăng nhập...
+    8. button  -- nút đăng kí, đăng nhập...
+    9. div  -- tạo ra 1 khối bao quanh phần nội dung
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-so">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container" >
+        <div class="login-left">
+            <div style="background-color: rgb(7, 165, 28); " class="login-header">
+                <h1>Welcome to Our Application</h1>
+                <p style="font-style: italic; ">Please login ti use the platform</p>
+            </div>
+            <form class="login-form">
+                <div class="login-form-content">
+                    <div class="form-item">
+                        <label for="email">Enter Email</label>
+                        <input type="text" id="email">
+                    </div>
+                    <div class="form-item">
+                        <label for="password" style="color: red;">Enter Password</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="form-item">
+                        <div class="checkbox">
+                            <input type="checkbox" id="remeberMeCheckbox">
+                            <label for="remeberMeCheckbox" id="checkboxLabel">Remember me</label>
+                        </div>
+                    </div>
+                    <button type="submit">Sign In</button>
+                </div>
+                <div class="login-form-footer">
+                    <a href="#">
+                        <img width="30"
+                            src="https://www.facebook.com/"
+                            alt=""> Facebook Login
+                    </a>
+                    <a href="#">
+                        <img src="https://chrome.google.com/webstore/category/extensions?hl=vi"
+                        width="30" alt=""> Google Login
+                    </a>
+                </div>
+            </form>
+        </div> 
+        <div class="login-right">
+            <img src="./image.svg">
+        </div>
+    </div>
+</body>
+</html>

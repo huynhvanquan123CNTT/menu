@@ -1,0 +1,18 @@
+<img src=“...” alt=“...” style=“width:50px;height:50px;”> :phải có alt phần mô tả cho ảnh(phát hiện ảnh lỗi).
+<nav> : Thẻ nav được dùng để định nghĩa một tập các liên kết điều hướng trong trang (navigation).
+ul#main-menu>li*8>a : cách làm nhanh thẻ ul, li(sau đó nhấn Tab).
+dispaly : inline (bỏ dấu chấm và căn hàng ngang)
+padding: ..px; (căn khoảng cách)
+backgound-color: ... (màu cho ô đã padding)
+backgound-image: url(...) thêm ảnh cho body.
+text-transform: uppercase; chữ in hoa.
+min-width: ...px; thu hẹp khoản cách nhỏ nhất của chữ.
+display: none; ẩn menu.
+list-style-type: none; ẩn dấu chấm của ul, li.
+text-decoration: none; (bỏ dấu gạch chân của thẻ) <a>
+color: (tô màu cho chữ).
+border-(top, right, bottom, left): ...px solid màu;     (đường viền khung).
+text-shadow: ...px ...px ...px màu;  (hiệu ứng chữ mờ bên dưới).
+border-radius: ...%;   (bo tròn)
+text-decoration: underline #171516;  (tô màu chân)
+
